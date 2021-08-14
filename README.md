@@ -12,7 +12,9 @@ You probably think I'm crazy and might pass up on installing this extension, but
 
 Besides, a liked post can mean that a user read some if not most of a forum post and could not offer a reply at the time (it relieves the pressure of feeling as if they _NEED_ to reply).
 
-__Note:__ Regarding the interval to when the widget statistics update, it will update [every 10 minutes](https://github.com/miniflar/top-like-givers-widget/blob/main/src/LikeRepository.php#L32) and will possibly be configurable in the future.
+__Notes:__ Regarding the interval to when the widget statistics update, it will update [every 10 minutes](https://github.com/miniflar/top-like-givers-widget/blob/main/src/LikeRepository.php#L32) and will possibly be configurable in the future.
+
+As for the widget itself, it is dependent on the "Search users" permission; so if guests aren't allowed to search for users on your forum, they won't be able to view this widget as well.
 
 ## Installation
 
