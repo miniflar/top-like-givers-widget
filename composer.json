@@ -20,7 +20,7 @@
     "support": {
         "issues": "https://github.com/miniflar/top-like-givers-widget/issues",
         "source": "https://github.com/miniflar/top-like-givers-widget",
-        "forum": "https://discuss.flarum.org/"
+        "forum": "https://discuss.flarum.org/d/28646"
     },
     "require": {
         "flarum/core": "^1.0.0",
@@ -74,6 +74,6 @@
         "test:setup": "Sets up a database for use with integration tests. Execute this only once."
     },
     "extiverse": {
-        "discuss": "https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE"
+        "discuss": "https://discuss.flarum.org/d/28646"
     }
 }
