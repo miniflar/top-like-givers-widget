@@ -1,6 +1,6 @@
 import Widgets from 'flarum/extensions/afrux-forum-widgets-core/common/extend/Widgets';
 
-import TopLikeGiversWidget from "./components/TopLikeGiversWidget";
+import TopLikeGiversWidget from './components/TopLikeGiversWidget';
 
 export default function (app) {
   new Widgets()
