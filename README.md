@@ -1,6 +1,8 @@
 # MiniFLAR Top Like Givers Widget
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge) [![Latest Stable Version](https://img.shields.io/packagist/v/miniflar/top-like-givers-widget.svg?style=for-the-badge)](https://packagist.org/packages/miniflar/top-like-givers-widget) [![PayPal](https://img.shields.io/badge/paypal-ralkage-4cl?style=for-the-badge&logo=paypal)](https://paypal.me/ralkage)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge) 
+[![Latest Stable Version](https://img.shields.io/packagist/v/miniflar/top-like-givers-widget.svg?style=for-the-badge)](https://packagist.org/packages/miniflar/top-like-givers-widget) 
+[![PayPal](https://img.shields.io/badge/paypal-ralkage-4cl?style=for-the-badge&logo=paypal)](https://paypal.me/ralkage)
 
 A [Flarum](http://flarum.org) extension. Top Like Givers in the past month Widget.
 

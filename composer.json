@@ -8,8 +8,20 @@
         "forum-widgets",
         "top-like-givers"
     ],
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/ralkage"
+        }
+    ],
     "type": "flarum-extension",
     "license": "MIT",
+    "homepage": "https://ralkage.com",
+    "support": {
+        "issues": "https://github.com/miniflar/top-like-givers-widget/issues",
+        "source": "https://github.com/miniflar/top-like-givers-widget",
+        "forum": "https://discuss.flarum.org/"
+    },
     "require": {
         "flarum/core": "^1.0.0",
         "flarum/likes": "^1.0.0",
