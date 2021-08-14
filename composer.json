@@ -1,0 +1,67 @@
+{
+    "name": "miniflar/top-like-givers-widget",
+    "description": "Top Like Givers in the past month Widget.",
+    "keywords": [
+        "flarum",
+        "afrux",
+        "likes",
+        "forum-widgets",
+        "top-like-givers"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0",
+        "flarum/likes": "^1.0.0",
+        "afrux/forum-widgets-core": "^0.1.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Christian Lopez",
+            "email": "me@ralkage.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiniFLAR\\TopLikeGiversWidget\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiniFLAR\\TopLikeGiversWidget\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "MiniFLAR Top Like Givers Widget",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-thumbs-up",
+                "backgroundColor": "#5e247e",
+                "color": "#eb6529"
+            }
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    },
+    "extiverse": {
+        "discuss": "https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE"
+    }
+}
